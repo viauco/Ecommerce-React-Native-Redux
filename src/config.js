@@ -4,10 +4,8 @@ import I18n, { getLanguages } from 'react-native-i18n';
 import { StackActions,NavigationActions } from 'react-navigation';
 
 export let googleConfig={
-  // iosClientId: "612680458692-esvbdd73nvei9tqf04rj9nprpdlm5mtg.apps.googleusercontent.com",//Moaz App
-  // webClientId: "612680458692-63fsrbe1pf627qfbe38c0a4gvru5lvr1.apps.googleusercontent.com"//Moaz App
-  iosClientId: "603809744693-hga89ca2o4ick4pdvfjemk5d1tag2crr.apps.googleusercontent.com",
-  webClientId: "603809744693-k69sbl4af5mqm8pe9slghaslci1irf28.apps.googleusercontent.com"//alyomapps@gmail.com App
+  // iosClientId: "3333333-sssd3333eeedd4444.apps.googleusercontent.com",//Moaz App
+  // webClientId: "3333333-sssd3333eeedd4444.apps.googleusercontent.com"//Moaz App
 }
 
 // Enable fallbacks if you want `en-US`
@@ -35,14 +33,14 @@ if(languageSession!=null&&'string'==typeof languageSession){
 
 // var words=require('langs/ar.js')
 
-export let base = 'http://t8.someotherhost.com/inventory/public/'
+export let base = 'http://test.apex4sites.com/eccommerce/'
 
 // export let baseUrl =base+I18n.local+'/mobile/'
 export let baseUrl =base+'api/v1/'
 export const baseUploadUrl = base+'upload/'
 export const commonheaders= {
   'Accept': 'application/json',
-  'client':'948e865db818835ee05770764d52cf8c86e3466f',
+  'client':'948e865db818835ee05770764d52cf8c86e3466f',//changed after that
   'secret':'cdccbce6103286a731de22b75faca9dd86b97624'
 }
 // export const headers={...commonheaders,...{"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"}}
