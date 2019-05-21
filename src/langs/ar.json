@@ -1,5 +1,5 @@
 {
-	"appTitle":"POS",
+	"appTitle":"Ecommercec",
 	"align":"right",
 	"lang":"ar",
 	"loading":"جاري التحميل ",
@@ -29,7 +29,7 @@
 	"pleaseChoose":"الرجاء اختيار ",
 	"pleaseInsertAllInfo":"الرجاء ادخال كل البيانات ",
 	"pleaseInsertPassword":"كلمة المرور يجب ان تكون ٦ احرف على الاقل و ومزيج بين الارقام والاحرف الكبيرة و الصغيرة ",
-	"copyright":"© 2019 جميع الحقوق محفوظة. مؤسسة تسوق لتقنية المعلومات \n المملكة العربية السعودية",
+	"copyright":"",
 	"name": "الاسم ",
 	"phone": "الجوال ",
 	"comment": "تعليق ",
