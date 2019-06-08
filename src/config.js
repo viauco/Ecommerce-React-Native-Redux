@@ -33,15 +33,15 @@ if(languageSession!=null&&'string'==typeof languageSession){
 
 // var words=require('langs/ar.js')
 
-export let base = 'http://test.apex4sites.com/eccommerce/'
+export let base = 'http://test.egazweb.com/eccommerce/'
 
 // export let baseUrl =base+I18n.local+'/mobile/'
 export let baseUrl =base+'api/v1/'
 export const baseUploadUrl = base+'upload/'
 export const commonheaders= {
   'Accept': 'application/json',
-  'client':'948e865db818835ee05770764d52cf8c86e3466f',//changed after that
-  'secret':'cdccbce6103286a731de22b75faca9dd86b97624'
+  'client':'sssss-ddddd-fffff-gggggg',//changed after that
+  'secret':'wwwww-rrrr-gggg-nnnn'
 }
 // export const headers={...commonheaders,...{"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"}}
 export const headers={...commonheaders,...{"Content-Type": "application/json"}}
